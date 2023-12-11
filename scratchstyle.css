@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e1d7d7;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 3px; /* Adjust padding to make it smaller */
+    text-align: center;
+    font-size: 10px; /* Adjust font size */
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Set a higher z-index value */
+}
+
+.main {
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-container {
+    text-align: center; /* Center the text */
+}
+
+.custom-list {
+    list-style-position: outside; /* Move the numbers/bullets outside the list item */
+    padding-left: 0; /* Remove default padding to align with text */
+    margin: 0; /* Remove default margin to ensure alignment */
+}
+
+.custom-list li {
+    padding: 5px; /* Adjust padding for list items */
+    margin: 0; /* Remove default margin to ensure alignment */
+}
+
+.sub-list {
+    list-style-position: outside; /* Move the bullets outside the list item */
+    padding-left: 20px; /* Adjust the left padding for the nested unordered list */
+    margin: 0; /* Remove default margin to ensure alignment */
+}
+
+.sub-list li {
+    padding: 5px; /* Adjust padding for list items */
+    margin: 0; /* Remove default margin to ensure alignment */
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: 1px solid #007BFF; /* Button border color */
+    border-radius: 5px; /* Button border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+
+    /* Optional: Add additional styling */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+.tableau-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Optional: Set a specific height if needed */
+}
+
+.tableauPlaceholder {
+    position: relative;
+}
